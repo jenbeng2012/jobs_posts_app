@@ -5,3 +5,4 @@ Feature: Viewing job posts
 
 Scenario: View jobs post
   Given I am on the index page
+  Then I should see "List of Jobs"
